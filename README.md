@@ -102,6 +102,7 @@ To create headers, you can use one to six hash symbols (#) at the beginning of a
 ```
 
 Explanation:
+
 ``` md
 `#` Heading Level 1: This creates a top-level heading (Heading Level 1).
 `##` Heading Level 2: This creates a second-level heading (Heading Level 2).
@@ -119,6 +120,7 @@ Remember to add a blank line between the header and the content below it to impr
 In Markdown, you can apply emphasis and make text bold to highlight important parts of your content.
 
 ### Emphasis
+
 To emphasize text, you can use either asterisks (*) or underscores (_) around the text you want to emphasize. Using a single asterisk or underscore will render the text in italics, and using double asterisks or underscores will render the text in bold.
 
 ``` md
@@ -130,6 +132,7 @@ __This text will also be bold using double underscores.__
 ```
 
 Explanation:
+
 *This text will be in italics using asterisks.*: This text will be displayed in italics.
 
 _This text will also be in italics using underscores._: This text will also be displayed in italics.
@@ -144,6 +147,7 @@ Remember that it's important to be consistent in your use of emphasis and bold t
 
 
 ## Lists
+
 Lists in Markdown allow you to organize items in a structured manner. There are two main types of lists: unordered lists and ordered lists.
 
    - ### Unordered Lists
@@ -158,6 +162,7 @@ Lists in Markdown allow you to organize items in a structured manner. There are 
    ```
 
    Explanation:
+   
    * Item 1: This creates the first item in the unordered list.
    * Item 2: This creates the second item in the unordered list.
    * Item 3: This creates the third item in the unordered list.
@@ -174,10 +179,11 @@ Lists in Markdown allow you to organize items in a structured manner. There are 
   ```
 
   Explanation:
-    1. First item: This creates the first item in the ordered list.
-    2. Second item: This creates the second item in the ordered list.
-    3. Third item: This creates the third item in the ordered list.
-    The above example will render as:
+  
+   1. First item: This creates the first item in the ordered list.
+   2. Second item: This creates the second item in the ordered list.
+   3. Third item: This creates the third item in the ordered list.
+   The above example will render as:
 
    First item
    Second item
@@ -198,20 +204,22 @@ Lists in Markdown allow you to organize items in a structured manner. There are 
   ```
 
    Explanation:
-     * Main item: This creates the first main item in the outer unordered list.
-     * Sub-item 1: This creates a sub-item under the first main item.
-     * Sub-item 2: This creates another sub-item under the first main item.
-     * Another main item: This creates the second main item in the outer unordered list.
-     1. Sub-item A: This creates a sub-item under the second main item in the ordered nested list.
-     2. Sub-item B: This creates another sub-item under the second main item in the ordered nested list.
-     The above example will render as:
+   
+   `* Main item`: This creates the first main item in the outer unordered list.
+   `* Sub-item 1`: This creates a sub-item under the first main item.
+   `* Sub-item 2`: This creates another sub-item under the first main item.
+   `* Another main item`: This creates the second main item in the outer unordered list.
+   `1. Sub-item A`: This creates a sub-item under the second main item in the ordered nested list.
+   `2. Sub-item B`: This creates another sub-item under the second main item in the ordered nested list.
+     
+   The above example will render as:
 
-    Main item
-      Sub-item 1
-      Sub-item 2
-    Another main item
-      Sub-item A
-      Sub-item B
+   Main item
+     Sub-item 1
+     Sub-item 2
+   Another main item
+     Sub-item A
+     Sub-item B
 
 Nested lists are useful when you need to create a hierarchy of information or break down complex points into sub-points. Remember to indent the sub-items to the appropriate level to ensure they are nested correctly.
 
